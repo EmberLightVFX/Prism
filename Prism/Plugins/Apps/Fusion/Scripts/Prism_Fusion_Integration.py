@@ -98,7 +98,7 @@ class Prism_Fusion_Integration(object):
             addedFiles = []
 
             # "PrismMenu.fu" add a Prism menu, but leads to freezes
-            for i in ["PrismEvent.fu", "PrismMenu.fu"]:
+            for i in ["PrismEvents.fu", "PrismMenu.fu"]:
                 origFile = os.path.join(integrationBase, i)
                 targetFile = os.path.join(installPath, "Config", i)
 
